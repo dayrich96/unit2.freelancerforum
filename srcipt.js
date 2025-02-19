@@ -16,7 +16,7 @@ freelancers.forEach(freelancer => {
     freelancerDiv.innerHTML = `
         <p>Name: ${freelancer.name}</p>
         <p>Occupation: ${freelancer.occupation}</p>
-        <p>Starting Price: $${freelancer.startingPrice}</p>
+        <p>Starting Price: ${freelancer.startingPrice}</p>
     `;
     container.appendChild(freelancerDiv);
 });
